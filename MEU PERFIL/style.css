@@ -1,0 +1,115 @@
+* { 
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    
+    margin: 0;
+}
+.cabecalho{
+
+    padding: 20px 15px 10px 0px;
+    width: 100%;
+    background-image: url("img/FUNDO\ SITE.svg");
+    background-size: cover;
+
+}
+
+.sobreMim{
+
+    margin: 15px 15px 10px 10px ;
+
+}
+
+#titulo{
+
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.objetivo{
+
+    flex-direction: column;
+    text-align: center;
+    color:azure;
+
+}
+
+h1,
+h2{
+
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    letter-spacing: 2px;
+    text-shadow: black 1.5px 2px 0.5px;
+
+}
+
+img{
+
+    width: 190px;
+    height: 190px;
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+
+img:hover{
+
+    opacity: 0.6;
+
+}
+
+li:hover{
+   
+    scale: 0.98;
+    transition: 0.5s;
+
+}
+
+p,
+li {
+
+    color: rgb(43, 43, 43);
+    text-align: justify;
+
+}
+
+footer {
+
+    background-color : rgb(0, 0, 0); 
+    color:aliceblue; 
+    text-align: center;
+    width: 100%;
+
+}
+
+a{
+
+    color: orangered;
+
+}   
+
+a:visited{
+
+    color: green;
+
+    text-decoration-color: hotpink;
+}
+
+a:hover{
+
+    text-decoration: none;
+
+}
+
+span{
+
+    width: 100%;
+    display:flex;
+    border-bottom: 6px solid rgb(93, 93, 93);
+    
+}
